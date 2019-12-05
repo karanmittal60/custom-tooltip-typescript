@@ -1,0 +1,24 @@
+.tooltip-km{
+    position: absolute;
+    background-color: #121212;
+    color: #fff;
+    max-width: 250px;
+    border-radius: 5px;
+    padding: 1px;
+    font-family: sans-serif;
+    font-size: 16px;
+    will-change: transform;
+    transition: all 0.3s ease-in-out;
+    top: 0;
+    left: 0;
+}
+
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #121212;
+    position: absolute;
+    left: calc(50% - 10px);
+}
